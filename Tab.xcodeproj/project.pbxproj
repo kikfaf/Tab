@@ -58,16 +58,41 @@
 		0C2EB470241187DE0060B66A /* Tab */ = {
 			isa = PBXGroup;
 			children = (
+				0C2EB48724118EBC0060B66A /* Modèle */,
+				0C2EB48824118EC90060B66A /* Vue */,
+				0C2EB48924118ED20060B66A /* Controller */,
 				0C2EB471241187DE0060B66A /* AppDelegate.swift */,
 				0C2EB473241187DE0060B66A /* SceneDelegate.swift */,
-				0C2EB475241187DE0060B66A /* FirstViewController.swift */,
-				0C2EB477241187DE0060B66A /* SecondViewController.swift */,
 				0C2EB479241187DE0060B66A /* Main.storyboard */,
 				0C2EB47C241187DF0060B66A /* Assets.xcassets */,
 				0C2EB47E241187DF0060B66A /* LaunchScreen.storyboard */,
 				0C2EB481241187DF0060B66A /* Info.plist */,
 			);
 			path = Tab;
+			sourceTree = "<group>";
+		};
+		0C2EB48724118EBC0060B66A /* Modèle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Modèle";
+			path = "Modèle";
+			sourceTree = "<group>";
+		};
+		0C2EB48824118EC90060B66A /* Vue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vue;
+			sourceTree = "<group>";
+		};
+		0C2EB48924118ED20060B66A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C2EB475241187DE0060B66A /* FirstViewController.swift */,
+				0C2EB477241187DE0060B66A /* SecondViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
