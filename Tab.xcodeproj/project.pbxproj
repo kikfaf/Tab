@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		0C2EB472241187DE0060B66A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EB471241187DE0060B66A /* AppDelegate.swift */; };
 		0C2EB474241187DE0060B66A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EB473241187DE0060B66A /* SceneDelegate.swift */; };
-		0C2EB476241187DE0060B66A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EB475241187DE0060B66A /* FirstViewController.swift */; };
-		0C2EB478241187DE0060B66A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EB477241187DE0060B66A /* SecondViewController.swift */; };
 		0C2EB47B241187DE0060B66A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2EB479241187DE0060B66A /* Main.storyboard */; };
 		0C2EB47D241187DF0060B66A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2EB47C241187DF0060B66A /* Assets.xcassets */; };
 		0C2EB480241187DF0060B66A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2EB47E241187DF0060B66A /* LaunchScreen.storyboard */; };
+		0C2EB48B241190CC0060B66A /* Calanques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EB48A241190CC0060B66A /* Calanques.swift */; };
+		0C2EB48D241192F20060B66A /* CalanqueCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EB48C241192F20060B66A /* CalanqueCollection.swift */; };
+		0C2EB48F241195570060B66A /* ControllerAvecTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EB48E241195570060B66A /* ControllerAvecTableViewViewController.swift */; };
+		0C2EB491241195680060B66A /* ControllerCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EB490241195680060B66A /* ControllerCarte.swift */; };
+		0C2EB493241196140060B66A /* TableViewIntegreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EB492241196140060B66A /* TableViewIntegreeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C2EB46E241187DE0060B66A /* Tab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C2EB471241187DE0060B66A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C2EB473241187DE0060B66A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0C2EB475241187DE0060B66A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0C2EB477241187DE0060B66A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0C2EB47A241187DE0060B66A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C2EB47C241187DF0060B66A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C2EB47F241187DF0060B66A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C2EB481241187DF0060B66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2EB48A241190CC0060B66A /* Calanques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calanques.swift; sourceTree = "<group>"; };
+		0C2EB48C241192F20060B66A /* CalanqueCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCollection.swift; sourceTree = "<group>"; };
+		0C2EB48E241195570060B66A /* ControllerAvecTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecTableViewViewController.swift; sourceTree = "<group>"; };
+		0C2EB490241195680060B66A /* ControllerCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerCarte.swift; sourceTree = "<group>"; };
+		0C2EB492241196140060B66A /* TableViewIntegreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIntegreeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,8 @@
 		0C2EB48724118EBC0060B66A /* Modèle */ = {
 			isa = PBXGroup;
 			children = (
+				0C2EB48A241190CC0060B66A /* Calanques.swift */,
+				0C2EB48C241192F20060B66A /* CalanqueCollection.swift */,
 			);
 			name = "Modèle";
 			path = "Modèle";
@@ -89,8 +97,9 @@
 		0C2EB48924118ED20060B66A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0C2EB475241187DE0060B66A /* FirstViewController.swift */,
-				0C2EB477241187DE0060B66A /* SecondViewController.swift */,
+				0C2EB48E241195570060B66A /* ControllerAvecTableViewViewController.swift */,
+				0C2EB490241195680060B66A /* ControllerCarte.swift */,
+				0C2EB492241196140060B66A /* TableViewIntegreeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -166,10 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C2EB478241187DE0060B66A /* SecondViewController.swift in Sources */,
-				0C2EB476241187DE0060B66A /* FirstViewController.swift in Sources */,
+				0C2EB48F241195570060B66A /* ControllerAvecTableViewViewController.swift in Sources */,
+				0C2EB491241195680060B66A /* ControllerCarte.swift in Sources */,
+				0C2EB493241196140060B66A /* TableViewIntegreeController.swift in Sources */,
+				0C2EB48B241190CC0060B66A /* Calanques.swift in Sources */,
 				0C2EB472241187DE0060B66A /* AppDelegate.swift in Sources */,
 				0C2EB474241187DE0060B66A /* SceneDelegate.swift in Sources */,
+				0C2EB48D241192F20060B66A /* CalanqueCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
