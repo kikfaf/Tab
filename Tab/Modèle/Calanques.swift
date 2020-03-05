@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreLocation
-
+ 
 class Calanque {
     private var _nom: String
     private var _desc: String
@@ -24,7 +24,7 @@ class Calanque {
         return _desc
     }
     
-    var coordonndee: CLLocationCoordinate2D {
+    var coordonnee: CLLocationCoordinate2D {
         return CLLocationCoordinate2D(latitude: _latitude, longitude: _longitude)
     }
     
@@ -40,3 +40,17 @@ class Calanque {
         _longitude = longitude
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
